@@ -10,7 +10,7 @@ This repository contains some pieces of code which might prove useful for the [s
 - The method outputs three arrays:
   - $p$ : representing the coordinates of the mesh nodes
   - $tri$ : which is the matrix collecting in the $i-$th row the indices of the three vertices of the $i-$triangle of the mesh
-  - $edge$ : does the same but for the edges, so in the $i-$th row you find the indices of the nodes delimiting such edge.
+  - $edge$ : does the same but for the boundary edges, so in the $i-$th row you find the indices of the nodes delimiting such edge.
 
 ## A posteriori project (option 2)
 
