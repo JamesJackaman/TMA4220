@@ -9,8 +9,8 @@ This repository contains some pieces of code which might prove useful for the [s
 - By running the script a test example with $n=10$ elements per edge will be generated.
 - The method outputs three arrays:
   - $p$ : representing the coordinates of the mesh nodes
-  - $tri$ : which is the matrix collecting in the $i-$th row the indices of the three vertices of the $i-$triangle of the mesh
-  - $edge$ : does the same but for the boundary edges, so in the $i-$th row you find the indices of the nodes delimiting such edge.
+  - $tri$ : which is the matrix collecting in the row $i$ the indices of the three vertices of the triangle $i$ of the mesh
+  - $edge$ : does the same but for the boundary edges, so in the row $i$ you find the indices of the nodes delimiting such edge.
 
 ## A posteriori project (option 2)
 
