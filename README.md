@@ -13,4 +13,4 @@ This repository contains some pieces of code which might prove useful for the [s
 
 ## A posteriori project (option 2)
 
-- `mesher.py` uses `pygmsh` to build and locally refine meshes. This script depends on `pymsh` (which can be pip installed) and Firedrake (for mesh plotting).
+- `mesher.py` uses `pygmsh` to build and locally refine meshes. This script depends on `gmsh` and `pygmsh` (which can be pip installed) and Firedrake (for mesh plotting).
